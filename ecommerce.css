@@ -7,3 +7,45 @@
 .navbar-brand {
     width: 5%;
 }
+
+.navbar {
+    background-color: #00c853;
+}
+
+.nav-link {
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/* Home */
+.bgimg {
+    background-image: url(https://img.freepik.com/free-photo/top-view-fresh-fruits-composition-mellow-sliced-ripe-fruits-dark-surface-ripe-fruit-vitamine-fresh-mellow_140725-118025.jpg?ga=GA1.1.111934452.1720076134&semt=ais_user);
+    width: 100vw;
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.hhead {
+    color: white;
+    margin-top: 2%;
+    font-size: 60px;
+}
+
+.hbtn {
+    width: 20%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* about */
+.apara {
+    font-size: 25px;
+    color: #00c853;
+}
+
+.d-block {
+    aspect-ratio: 3/2;
+    width: 100%;
+}

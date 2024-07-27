@@ -17,6 +17,7 @@
 </head>
 
 <body>
+    <!-- navbar -->
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><img
@@ -25,7 +26,7 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <i class="fa-solid fa-bars" style="color: black;"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -33,24 +34,27 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Product</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
+                            Payment
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Online Payment</a></li>
+                            <li><a class="dropdown-item" href="#">Offline Payment</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item" href="#">Others</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
                     </li>
                 </ul>
                 <form class="d-flex">
@@ -60,6 +64,59 @@
             </div>
         </div>
     </nav>
+    <!-- Home -->
+    <section class="bgimg" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="hhead">Organic Website</h1>
+                    <button class="btn btn-success hbtn">Shop More <i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About -->
+    <section>
+        <h1 class="text-center mt-5 mb-4" style="color: green; font-size: 45px;">ABOUT</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <h4 class="mt-4">Organic Purity Towards HEalth</h4 class="mt-4">
+                    <p class="apara text-center mt-4 mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Vero ullam soluta voluptates amet quod officiis expedita non autem consequatur maiores culpa,
+                        incidunt nobis quam eveniet nemo, sit facilis, hic recusandae!</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://img.freepik.com/free-photo/grapes-strawberries-pineapple-kiwi-apricot-banana-whole-pineapple_23-2147968680.jpg?t=st=1721975780~exp=1721979380~hmac=24a96dfbf833f00faab4f0f0e27a178c9cb95f87270499f3f056764c935949b2&w=900"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://img.freepik.com/free-photo/set-pecan-pistachios-almond-peanut-cashew-pine-nuts-lined-up-assorted-nuts-dried-fruits-mini-different-bowls_176474-2051.jpg?t=st=1721975806~exp=1721979406~hmac=0d397f74ca430776e33a0922319c081f1b3fcedf054980807be935f640abcc77&w=900"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://img.freepik.com/free-photo/fresh-milk-mug-jug-wooden-table_114579-18233.jpg?t=st=1721975853~exp=1721979453~hmac=3da3b6870eb4d7125f88f0ef796200844a6546b3a8205654316c386232215c97&w=996"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
